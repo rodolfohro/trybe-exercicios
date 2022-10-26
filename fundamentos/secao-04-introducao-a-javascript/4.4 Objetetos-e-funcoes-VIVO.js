@@ -29,19 +29,43 @@ console.log(calcularPontos(2,3));
 console.log(calcularPontos(10,12));
 
 // Crie uma pessoa
-
 let person = {
-	firstName: 'Lukinha',
-	lastName: 'Leal',
-	favoriteMovie: ['Star Wars', 'Han Solo']
+  firstName: 'Luquinha',
+  lastName: 'Leal',
+  favoriteFilmes: ['Star wars', 'Odss']
 }
-// nome do objeto, chave dele
-//console.log(person);
-// bracked notation []
-console.log(person.favoriteMovie[0]);
-// Criar uma nova chave
-person.firstName = 'Thiago'
-// outra forma de adicionar uma chave nova
-person['Doces Favoritos'] = 'choocolate'
 
-console.log(person.);
+// console.log(person);
+//Duas formas de acessar as propriedades do objeto
+//dot notation (ponto)
+//nomeDoObjeto.chaveDele
+// console.log(person.lastName);
+
+//brackets notation (conchetes [])
+
+
+//1️⃣ Adiciona uma chave nova
+person.firstName = 'Patrick';
+person.city = 'Abc Paulista';
+
+//2️⃣ Outra forma de adicionar uma chave nova
+person['DocesFavoritos'] = 'Chocolate'
+//3️⃣ Adiciona um outro objeto dentro do mesmo
+
+person.address = {
+  rua: 'Rua 21 ddfdf',
+  numero: 23,
+  outrasCoisitas: 'aaaaaaa'
+}
+// console.log(person.firstName);
+
+//4️⃣ Iterar sobre o objeto
+
+let iterable = [10, 20, 30];
+ 
+for (const iterator of person) {
+  console.log(iterator);
+}
+// for(let index in person){
+//   console.log(person[index]);
+// }
