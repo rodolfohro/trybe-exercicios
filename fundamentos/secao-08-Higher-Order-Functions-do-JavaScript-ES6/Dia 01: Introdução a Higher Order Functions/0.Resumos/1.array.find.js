@@ -11,3 +11,6 @@ const ages = [18, 21, 42, 20, 19, 21, 30, 73, 82, 45, 48, 50];
 
 ages.find((idade) => idade === 33); // undefined
 console.log(ages.find((idade) => idade === 33)); // undefined
+
+
+// ainda tenho que estudar isso, me da um tempinho q a campanha vai acabar e eu vou estudar isso
