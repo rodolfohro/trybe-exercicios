@@ -14,3 +14,4 @@ const enviarEmail = (email) =>{
 }
 
 emailListInData.forEach(enviarEmail);
+//super commit
