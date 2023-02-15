@@ -14,4 +14,6 @@ const enviarEmail = (email) =>{
 }
 
 emailListInData.forEach(enviarEmail);
-//super commit
+// estudo do projeto zoo functions
+// Path: fundamentos/secao-08-Higher-Order-Functions-do-JavaScript-ES6/Dia 01: Introdução a Higher Order Functions/1.Exercícios/1.zoo.js
+//1 - Crie uma função que retorne a string 'Acordando!!' ;
